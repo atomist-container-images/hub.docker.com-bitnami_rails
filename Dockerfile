@@ -196,6 +196,3 @@ FROM bitnami/rails:7.0.2-2-debian-10-r16
 
 # Tags: 6.1.4-6-debian-10-r17
 FROM bitnami/rails:6.1.4-6-debian-10-r17
-
-# Tags: 7.0.2-2-debian-10-r15
-FROM bitnami/rails:7.0.2-2-debian-10-r15
