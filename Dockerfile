@@ -1,18 +1,83 @@
-# Tags: latest, 7.0.2-4-debian-10-r6, 7.0.2-4, 7-debian-10, 7
+# Tags: latest, 7.0.3-0-debian-10-r3, 7.0.3-0, 7-debian-10, 7
 FROM bitnami/rails:latest
-FROM bitnami/rails:7.0.2-4-debian-10-r6
-FROM bitnami/rails:7.0.2-4
+FROM bitnami/rails:7.0.3-0-debian-10-r3
+FROM bitnami/rails:7.0.3-0
 FROM bitnami/rails:7-debian-10
 FROM bitnami/rails:7
+
+# Tags: 6.1.6-0-debian-10-r3, 6.1.6-0, 6-debian-10, 6
+FROM bitnami/rails:6.1.6-0-debian-10-r3
+FROM bitnami/rails:6.1.6-0
+FROM bitnami/rails:6-debian-10
+FROM bitnami/rails:6
 
 # Tags: _
 FROM bitnami/rails:_
 
-# Tags: 6.1.5-1-debian-10-r5, 6.1.5-1, 6-debian-10, 6
-FROM bitnami/rails:6.1.5-1-debian-10-r5
+# Tags: 6.1.6-0-debian-10-r2
+FROM bitnami/rails:6.1.6-0-debian-10-r2
+
+# Tags: 7.0.3-0-debian-10-r2
+FROM bitnami/rails:7.0.3-0-debian-10-r2
+
+# Tags: 6.1.6-0-debian-10-r1
+FROM bitnami/rails:6.1.6-0-debian-10-r1
+
+# Tags: 7.0.3-0-debian-10-r1
+FROM bitnami/rails:7.0.3-0-debian-10-r1
+
+# Tags: 6.1.6-0-debian-10-r0
+FROM bitnami/rails:6.1.6-0-debian-10-r0
+
+# Tags: 7.0.3-0-debian-10-r0
+FROM bitnami/rails:7.0.3-0-debian-10-r0
+
+# Tags: 6.1.5-1-debian-10-r12, 6.1.5-1
+FROM bitnami/rails:6.1.5-1-debian-10-r12
 FROM bitnami/rails:6.1.5-1
-FROM bitnami/rails:6-debian-10
-FROM bitnami/rails:6
+
+# Tags: 7.0.2-4-debian-10-r12, 7.0.2-4
+FROM bitnami/rails:7.0.2-4-debian-10-r12
+FROM bitnami/rails:7.0.2-4
+
+# Tags: 6.1.5-1-debian-10-r11
+FROM bitnami/rails:6.1.5-1-debian-10-r11
+
+# Tags: 7.0.2-4-debian-10-r11
+FROM bitnami/rails:7.0.2-4-debian-10-r11
+
+# Tags: 6.1.5-1-debian-10-r10
+FROM bitnami/rails:6.1.5-1-debian-10-r10
+
+# Tags: 7.0.2-4-debian-10-r10
+FROM bitnami/rails:7.0.2-4-debian-10-r10
+
+# Tags: 6.1.5-1-debian-10-r9
+FROM bitnami/rails:6.1.5-1-debian-10-r9
+
+# Tags: 7.0.2-4-debian-10-r9
+FROM bitnami/rails:7.0.2-4-debian-10-r9
+
+# Tags: 6.1.5-1-debian-10-r8
+FROM bitnami/rails:6.1.5-1-debian-10-r8
+
+# Tags: 7.0.2-4-debian-10-r8
+FROM bitnami/rails:7.0.2-4-debian-10-r8
+
+# Tags: 6.1.5-1-debian-10-r7
+FROM bitnami/rails:6.1.5-1-debian-10-r7
+
+# Tags: 7.0.2-4-debian-10-r7
+FROM bitnami/rails:7.0.2-4-debian-10-r7
+
+# Tags: 6.1.5-1-debian-10-r6
+FROM bitnami/rails:6.1.5-1-debian-10-r6
+
+# Tags: 7.0.2-4-debian-10-r6
+FROM bitnami/rails:7.0.2-4-debian-10-r6
+
+# Tags: 6.1.5-1-debian-10-r5
+FROM bitnami/rails:6.1.5-1-debian-10-r5
 
 # Tags: 7.0.2-4-debian-10-r5
 FROM bitnami/rails:7.0.2-4-debian-10-r5
@@ -129,57 +194,3 @@ FROM bitnami/rails:6.1.5-0-debian-10-r33
 
 # Tags: 7.0.2-3-debian-10-r35
 FROM bitnami/rails:7.0.2-3-debian-10-r35
-
-# Tags: 6.1.5-0-debian-10-r32
-FROM bitnami/rails:6.1.5-0-debian-10-r32
-
-# Tags: 7.0.2-3-debian-10-r34
-FROM bitnami/rails:7.0.2-3-debian-10-r34
-
-# Tags: 6.1.5-0-debian-10-r31
-FROM bitnami/rails:6.1.5-0-debian-10-r31
-
-# Tags: 7.0.2-3-debian-10-r33
-FROM bitnami/rails:7.0.2-3-debian-10-r33
-
-# Tags: 6.1.5-0-debian-10-r30
-FROM bitnami/rails:6.1.5-0-debian-10-r30
-
-# Tags: 7.0.2-3-debian-10-r32
-FROM bitnami/rails:7.0.2-3-debian-10-r32
-
-# Tags: 6.1.5-0-debian-10-r29
-FROM bitnami/rails:6.1.5-0-debian-10-r29
-
-# Tags: 7.0.2-3-debian-10-r31
-FROM bitnami/rails:7.0.2-3-debian-10-r31
-
-# Tags: 6.1.5-0-debian-10-r28
-FROM bitnami/rails:6.1.5-0-debian-10-r28
-
-# Tags: 7.0.2-3-debian-10-r30
-FROM bitnami/rails:7.0.2-3-debian-10-r30
-
-# Tags: 6.1.5-0-debian-10-r27
-FROM bitnami/rails:6.1.5-0-debian-10-r27
-
-# Tags: 7.0.2-3-debian-10-r29
-FROM bitnami/rails:7.0.2-3-debian-10-r29
-
-# Tags: 6.1.5-0-debian-10-r26
-FROM bitnami/rails:6.1.5-0-debian-10-r26
-
-# Tags: 7.0.2-3-debian-10-r28
-FROM bitnami/rails:7.0.2-3-debian-10-r28
-
-# Tags: 6.1.5-0-debian-10-r25
-FROM bitnami/rails:6.1.5-0-debian-10-r25
-
-# Tags: 7.0.2-3-debian-10-r27
-FROM bitnami/rails:7.0.2-3-debian-10-r27
-
-# Tags: 6.1.5-0-debian-10-r24
-FROM bitnami/rails:6.1.5-0-debian-10-r24
-
-# Tags: 7.0.2-3-debian-10-r26
-FROM bitnami/rails:7.0.2-3-debian-10-r26
